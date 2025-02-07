@@ -62,11 +62,12 @@ class Stack:
     def get_size(self):
         return self.size
 
-    def print_items(self):
+    # returns a string representation of the stack
+    def to_string(self):
         pointer = self.top_item
         print_list = []
         while pointer:
             print_list.append(pointer.get_value())
             pointer = pointer.get_next_node()
         print_list.reverse()
-        print(f"{self.get_name()} Stack: {print_list}")
+        return f"{self.get_name()} Stack: {print_list}"

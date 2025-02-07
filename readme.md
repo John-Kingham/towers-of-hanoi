@@ -14,4 +14,12 @@ To practice using stacks and the basic features of Python.
 - Larger disks cannot be placed on top of smaller disks
 
 ## Implementation
+
+### Version 1.0
 The three stacks will be implemented as instances of a Stack class, with the typical behaviour of a stack (push, pop, peek).
+The game is written entirely in a single `main` function.
+
+### Version 2.0
+Version 1.0 was written entirely in a single `main` function, which mixes together the game code and the user interface code. This is a bad idea because I may want to change the interface at some point, to give the game a desktop GUI or a web interface.
+
+This version will separate out the game code from the current terminal interface code.
