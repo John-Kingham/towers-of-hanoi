@@ -1,6 +1,6 @@
 # Codecademy - Computer Science Career Path - Towers of Hanoi 
 ## Description
-A small project based on the towers of [Hanoi game](https://en.wikipedia.org/wiki/Tower_of_Hanoi).
+A small project based on the [towers of Hanoi game](https://en.wikipedia.org/wiki/Tower_of_Hanoi).
 
 ## Goal
 To practice using stacks and the basic features of Python.
