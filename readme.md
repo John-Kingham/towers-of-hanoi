@@ -22,4 +22,6 @@ The game is written entirely in a single `main` function.
 ### Version 2.0
 Version 1.0 was written entirely in a single `main` function, which mixes together the game code and the user interface code. This is a bad idea because I may want to change the interface at some point, to give the game a desktop GUI or a web interface.
 
-This version will separate out the game code from the current terminal interface code.
+This version separates out the game code from the current terminal interface code.
+
+I've also added unit tests and also used the Black Formatter extension.
